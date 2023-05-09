@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 /*-- header style-- */
 header{
     background-color:#bd2a2a;
@@ -14,13 +17,6 @@ header{
     width: 100%;
     font-family: 'Poppins', sans-serif;
     position: fixed;
-}
-header h1 a{
-    text-decoration: none;
-    color: white;
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 3px;
 }
 header ul{
     display: flex;
@@ -45,4 +41,43 @@ header ul li a:hover{
     max-width: 8%;
     border-radius: 50%;
     margin-right: 10px;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.logo h1{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+/*-- main style --*/
+section{
+    height: 95vh;
+}
+.esports{
+    background-color: #302f2f;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.futebol{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.basquete{
+    background-color: #302f2f;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
 }
